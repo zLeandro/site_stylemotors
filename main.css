@@ -1,0 +1,179 @@
+* {
+    margin 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Mr Dafoe', cursiva;
+    font-weight: normal;
+}
+
+body, input, textarea, section h4 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #2b0606;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 25px
+}
+
+header nav li:hover {
+    background-color: #330606;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 35px;
+    cursor: pointer;
+}
+
+.brands-list li a {
+    text-decoration: none;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.brands-list li :hover {
+    background-color: #ffffff18;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+
+section {
+    color: #2b0606;
+    font-size: 17px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.Loja {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contato .container {
+    display: block;
+}
+
+.contact1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-size: 35px;
+}
+
+section h4 {
+    font-size: 25px;
+    color: #fdfdfd;
+}
+
+form button {
+    background-color: #2b0606;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+form button:hover {
+    background-color: #640505;
+}
+
+input:focus, textarea:focus {
+    outline-color: #2b0606;
+}
+
+footer {
+    background-color: #2b0606;
+    color: #ffffff;
+    padding: 16px;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(imagens/loja\ \(1\).jpg);
+    Background-Repeat: no-repeat;
+    background-size: cover;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    style="border:0;
+}
